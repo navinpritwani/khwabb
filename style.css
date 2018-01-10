@@ -725,6 +725,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.bloc-group-text-vc{
 	margin-top:0%;
 }
+.logo-img{
+	display:block;
+}
  }
 /* Drop Down Navigation */
 @media (min-width: 767px) and (max-width: 991px){
