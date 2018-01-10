@@ -767,5 +767,18 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bloc-mob-center-text{
 	text-align:center;
 }
- }
+.logo-img{
+	margin:auto auto auto auto;
+	display:;
+	overflow:visible;
+	float:none;
+	text-align:center;
+	width:100%;
+}
+ /* = Text Mobile Alignment Classes
+-------------------------------------------------------------- */
+.text-center-xs{
+	text-align:center;
+}
+}
 
