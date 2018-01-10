@@ -49,6 +49,13 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 
 
+/* Background Effects */
+
+.b-parallax{
+	background-attachment:fixed;
+}
+
+
 /* Dark theme */
 
 .d-bloc{
@@ -161,10 +168,14 @@ a:hover{text-decoration: none; cursor:pointer;}
 #bloc-3 h2{
 	font-size: 30pt;
 }
-#bloc-4 h3{
+#bloc-4 h2{
+	font-family: Ubuntu;
 	font-size: 30pt;
 }
-#bloc-5 h2{
+#bloc-5 h3{
+	font-size: 30pt;
+}
+#bloc-6 h2{
 	font-family: Ubuntu;
 }
 
@@ -294,6 +305,10 @@ nav .caret{
 	border-bottom-color:transparent;
 	margin: 6px -5px 0 0!important;
 	float: right;
+}
+.hero .hero-nav{
+	padding-left:inherit;
+	padding-right:inherit;
 }
 
 /* = Bric adjustment margins
@@ -520,6 +535,26 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:#FFFFFF!important;
 	background-color:#02AAC4;
 }
+.statement-bloc-text{
+	line-height:38px;
+	font-style:italic;
+	font-size:28px;
+	text-align:center;
+	font-weight:lighter;
+}
+.testtimony{
+	font-size:24px;
+}
+.top-margin{
+	margin-top:60px;
+}
+.text-center{
+	text-align:center;
+}
+.max-wid{
+	max-width:60%;
+	margin:auto auto auto auto;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -528,9 +563,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 .bgc-white{
 	background-color:#FDFFFE;
-}
-.bgc-white-2{
-	background-color:#FFFFFF;
 }
 .bgc-blue-green{
 	background-color:#02AAC4;
